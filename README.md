@@ -58,15 +58,3 @@ The generator supports the following character sets:
 ## 🛠️ Installation
 
 No installation or build tools are required.
-
----
-
-## 📸 Screenshots
-
-You can add screenshots like these:
-
-* Main Interface
-* Password Generated
-* Copy Password Confirmation
-* Validation Message
-
