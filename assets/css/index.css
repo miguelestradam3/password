@@ -1,0 +1,100 @@
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+    --background-color: #040000; /* Background color for the entire website, including individual sections */
+    --default-color: #f8f8f8; /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #115478; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --surface-color: #191919; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+    --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+    --primary-color: #115478;
+}
+
+/* Smooth scroll */
+:root {
+scroll-behavior: smooth;
+}
+
+.btn {
+background-color: var(--accent-color) !important;
+color: var(--contrast-color) !important;
+border: var(--accent-color) !important;
+}
+
+/**/
+/* Checkboxes */
+.form-check-input {
+    --bs-form-check-bg: #fff;
+    --bs-form-check-border-color: var(--primary-color);
+    --bs-form-check-checked-bg-color: var(--primary-color);
+    --bs-form-check-checked-border-color: var(--primary-color);
+}
+
+.form-range::-webkit-slider-thumb {
+    background: var(--primary-color);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--primary-color);
+}
+
+.form-range::-webkit-slider-runnable-track {
+    background: #d9d9d9;
+}
+
+.form-range::-moz-range-track {
+    background: #d9d9d9;
+}
+
+.form-check-input {
+    border-color: var(--primary-color);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.form-check-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 .25rem rgba(17, 84, 120, .25);
+}
+
+/* Checkboxes and slider */
+input[type="checkbox"],
+input[type="range"] {
+    accent-color: var(--primary-color);
+}
+
+/* Generate button */
+#generate {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+#generate:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Copy button */
+#copy {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+#copy:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Card header */
+.card-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Selected text inside inputs */
+input::selection {
+    background-color: var(--primary-color);
+    color: white;
+}
