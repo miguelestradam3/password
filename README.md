@@ -70,17 +70,3 @@ You can add screenshots like these:
 * Copy Password Confirmation
 * Validation Message
 
----
-
-## 💡 Future Improvements
-
-* Password strength meter
-* Show/Hide password
-* Dark mode
-* Automatically regenerate password when options change
-* Guarantee at least one character from every selected category
-* Exclude ambiguous characters (`0`, `O`, `I`, `l`)
-* Password history
-* Multiple password generation
-* Password entropy calculation
-
